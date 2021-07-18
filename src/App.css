@@ -22,22 +22,32 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  background-image: url(./Component/melissa-walker-horn-76HIoI5Ni1E-unsplash.jpg);
+  background-size: cover;
+  
 }
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  backdrop-filter: blur(1rem);
+}
+
+h2 {
+  backdrop-filter: blur(1rem);
 }
 
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
+  backdrop-filter: blur(1rem);
 }
 
 h4 {
   margin: 0;
   text-transform: uppercase;
+  backdrop-filter: blur(1rem);
 }
 
 
@@ -58,12 +68,14 @@ h4 {
 
 label {
   display: inline-block;
+  backdrop-filter: blur(1rem);
   margin: 10px 0;
 }
 
 input[type='text'],
 input[type='number'] {
   border: 1px solid #dedede;
+  backdrop-filter: blur(1rem);
   border-radius: 2px;
   display: block;
   font-size: 16px;
